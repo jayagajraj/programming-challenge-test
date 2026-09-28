@@ -4,8 +4,9 @@ public class Solution {
      * return the sum of a and b.
      */
     public int add(int a, int b) {
+        int x = a + b;
         //replace 0  with your implementation
-        return 0;
+        return x ;
         //throw new UnsupportedOperationException("Not implemented yet");
     }
 
@@ -13,8 +14,9 @@ public class Solution {
      * return the difference of a and b.
      */
     public int subtract(int a, int b) {
+        int x = a - b;
         // replace 0  with your implementation
-        return 0;
+        return x;
         //throw new UnsupportedOperationException("Not implemented yet");
     }
 
@@ -23,16 +25,17 @@ public class Solution {
      */
     public int multiply (int a, int b){
         // replace 0  with your implementation
-        return 0;
+        int x = a * b;
+        return x;
     }
 
     /**
      * return the quotient of a and b.
      */
 
-    public double divide (int a, int b){
+    public double divide ( int a, int b){
         // replace 0.0  with your implementation
-        return 0;
+        return (double) a / b;
     }
 
     /**
@@ -40,7 +43,8 @@ public class Solution {
      */
     public String concatenate (String word1, String word2){
         // replace ""  with your implementation
-        return "";
+        
+        return word1 + word2;
     }
 
 
@@ -53,7 +57,11 @@ public class Solution {
  */
     public int transform(int a) {
         // replace 0 with your implementation
-        return 0;
+        int x = a;
+      x = x+4;
+     x = x *3;
+     x = x-a ;
+        return x;
     }
 
     public static void main(String[] args) {
